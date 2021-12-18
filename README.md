@@ -22,7 +22,7 @@ By refactoring the code and changing the nested loop into two separate iteration
 ![Fast code timing 2017](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/Fast%20code%20timing%202017.PNG)
 ![Fast code timing 2018](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/Fast%20code%20timing%202018.PNG)
 
-The reason for the reduction of the run time is the first set of code with the nested loop required the codes to loop through the 3,013 rows of data twelve times. The improved code initialized tickerVolumes for the 12 rows first and then a second loop ran through the 3,013 rows just once to return the desired information.  
+The reason for the reduction of the run time is the first set of code with the nested loop required the code to loop through the 3,013 rows of data, twelve times. The improved code initialized tickerVolumes for 12 rows first and then a second loop ran through the 3,013 rows just once to return the desired information.  
 
 # Summary
 There are advantages and disadvantages to refactoring code. The advantages of refactoring code is the ability to clean and improve code over time. Refactoring code can improve its performance and utility. Once you have improved code, you may be able to reuse that code in future projects which could save overall project time. Finally, a bonus to refactoring code is the collaborative effort. The old saying "Two heads are better than one" applies to VBA code as well. The overall code once refactored should be easier to understand and cleaner or the final solution is more elegant than if just one person worked on it.
