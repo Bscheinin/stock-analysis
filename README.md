@@ -17,6 +17,7 @@ Total run time for this code was about 0.9 seconds. Here are each of the run tim
 ![Slow code timing 2018](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/Slow%20code%20timing%202018.PNG)
 
 By refactoring the code and changing the nested loop into two separate iterations, the run time was reduced to 0.1 seconds. Here is my code with the run time message boxes. 
+
 ![Fast code](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/Fast%20code.PNG)
 ![Fast code timing 2017](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/Fast%20code%20timing%202017.PNG)
 ![Fast code timing 2018](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/Fast%20code%20timing%202018.PNG)
