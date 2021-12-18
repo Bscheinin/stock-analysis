@@ -8,9 +8,11 @@ The purpose of this challenge was to take previously used VBA code and to measur
 
 ### Analysis of Code Performance
 The results of the code performance analysis shows that using nested 'for loops' created a longer run time. This shows my code with a nested loop:
-![Slow code](https://github.com/Bscheinin/stock-analsys/blob/main/Resources/Slow%code.png)
+
+![Slow code](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/Slow%20code.PNG)
+
 Total run time for this code was about 0.9 seconds. Here are each of the run time message boxes for the years 2017 and 2018.
-![Slow code timing 2017](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/Slow%code%timing%2017.png)
+![Slow code timing 2017](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/Slow%20code%20timing%202017.png)
 ![Slow code timing 2018](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/Slow%code%timing%2018.png)
 
 By refactoring the code and changing the nested loop into two separate iterations, the run time was reduced to 0.1 seconds. Here is my code with the run time message boxes. 
