@@ -19,8 +19,8 @@ Total run time for this code was about 0.9 seconds. Here are each of the run tim
 By refactoring the code and changing the nested loop into two separate iterations, the run time was reduced to 0.1 seconds. Here is my code with the run time message boxes. 
 
 ![Fast code](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/Fast%20code.PNG)
-![Fast code timing 2017](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
-![Fast code timing 2018](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/Fast%20code%20timing%202018.PNG)
+![VBA_Challenge_2017](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
+![VBA_Challenge_2018](https://github.com/Bscheinin/stock-analysis/blob/main/Resources/VBA_Challenge_%202018.PNG)
 
 The reason for the reduction of the run time is the first set of code with the nested loop required the code to loop through the 3,013 rows of data, twelve times. The improved code initialized tickerVolumes for 12 rows first and then a second loop ran through the 3,013 rows just once to return the desired information.  
 
